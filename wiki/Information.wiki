@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#InformationPage
 
 = Information =
 
@@ -8,3 +8,5 @@ algorithm.
 
 
 This library is written in c++ and is under development by Martin Hofmann.
+
+*Notice that this library is not for real use. It's only for people who are interested in understanding the code or for test-uses* 
