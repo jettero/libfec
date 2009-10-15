@@ -1,11 +1,11 @@
 4.
 //----------------------------------------------------------
-Complete Upload
+-Complete Upload
 
 
 5.
 //----------------------------------------------------------
-GPLv3 and change.log added to trunk
+-GPLv3 and change.log added to trunk
 
 
 6.
@@ -15,4 +15,17 @@ libfec.h deleted and libfec.hpp added with the same source
 
 7.
 //----------------------------------------------------------
-GPL adtvertise and include header added
+-GPL adtvertise added
+-include header added
+
+
+8.
+//----------------------------------------------------------
+-main.cpp added
+-constructor / destructor added to libfec.cpp / .hpp
+-void Initialize(); added to libfce.cpp / .hpp
+
+
+9.
+//----------------------------------------------------------
+-complete upload
