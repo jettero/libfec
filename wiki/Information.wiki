@@ -1,6 +1,6 @@
 #Information about libfec
 
-= Information =
+= _LIBFEC_ =
 
 _libfec_ is a free library under the terms of the General Public License v3
 _libfec_ is a library with you can encrypt and decrypt passwords with a self made
