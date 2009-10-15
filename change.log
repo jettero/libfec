@@ -29,3 +29,10 @@ libfec.h deleted and libfec.hpp added with the same source
 9.
 //----------------------------------------------------------
 -complete upload
+
+
+10.
+//----------------------------------------------------------
+-algortihm.cpp / .hpp added
+-testroutine in main.cpp created
+-first usefull code in libfec.cpp added

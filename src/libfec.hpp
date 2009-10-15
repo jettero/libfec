@@ -18,20 +18,21 @@
 //      MA 02110-1301, USA.
 
 
-#define _libfce_hpp_
-#ifndef _libfce_hpp_
+#ifndef _libfec_hpp_
+#define _libfec_hpp_
 
 class libfec{
 	public:
-		libfce();
-		~libfce();
+		libfec(char *password);
+		~libfec();
 	
-		void Intitialize();
+		void Initialize();
 	
 	private:
+		int m_length;
 		char *m_password;
 };
 
 
-#endif //_linfce_hpp_
+#endif //_linfec_hpp_
 

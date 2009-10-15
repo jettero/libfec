@@ -1,4 +1,4 @@
-//		libfec.cpp
+//		algorithm.cpp
 //
 //		Copyright by hofmann.martin@gmx.de
 //
@@ -18,22 +18,10 @@
 //      MA 02110-1301, USA.
 
 
-#include "libfec.hpp"
-
-#include <iostream>
-#include <string.h>
-
-libfec::libfec(char *password){
-	m_length = strlen(password);
-	m_password = password;
-};
+algorithm::algorithm(){
+}
 
 
-libfec::~libfec(){
-};
-
-
-void libfec::Initialize(){
-	
+algorithm::~algorithm(){
 }
 
