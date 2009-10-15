@@ -22,6 +22,14 @@
 #ifndef _libfce_hpp_
 
 class libfec{
+	public:
+		libfce();
+		~libfce();
+	
+		void Intitialize();
+	
+	private:
+		char *m_password;
 };
 
 
