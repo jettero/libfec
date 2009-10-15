@@ -1,13 +1,10 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= Information =
 
-Add your content here.
+_libfec_ is a free library under the terms of the General Public License v3
+_libfec_ is a library with you can encrypt and decrypt passwords with a self made
+algorithm.
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+This library is written in c++ and is under development by Martin Hofmann.
