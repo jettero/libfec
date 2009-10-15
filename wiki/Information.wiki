@@ -1,5 +1,3 @@
-#Information about libfec
-
 = _LIBFEC_ =
 
 _libfec_ is a free library under the terms of the General Public License v3
