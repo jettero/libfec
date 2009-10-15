@@ -1,4 +1,4 @@
-#InformationPage#
+#Information about libfec
 
 = Information =
 
