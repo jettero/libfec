@@ -1,0 +1,10 @@
+= Help Wanted =
+
+I am searching for a guy who want to help me with my little project.
+
+
+_libfec_ is written in c++ so it would be good if you are a c/c++ developer.
+You don't have to be a very good developer because I'm also not a very good developer.
+
+
+Hope you want to help me
