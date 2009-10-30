@@ -18,6 +18,7 @@
 //      MA 02110-1301, USA.
 
 #include "libfec.hpp"
+#include "algorithm.hpp"
 
 #include <iostream>
 
@@ -28,6 +29,10 @@ int main(int argc, char *argv[]){
 	
 	libfec *fec;
 	fec = new libfec(password);
+	
+	algorithm alg;
+	
+	alg.AlgorithmInitialize( 5 );
 	
 	return (0);
 }

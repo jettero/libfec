@@ -18,5 +18,4 @@
 //      MA 02110-1301, USA.
 
 
-static const int keys[26] ={};
-
+static const int keys[26] = {};
