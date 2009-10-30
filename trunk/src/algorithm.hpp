@@ -25,8 +25,13 @@ class algorithm{
 	public:
 		algorithm();
 		~algorithm();
+		
+		int AlgorithmInitialize( int password_length );
 	
 	private:
+		char *password;
+	
+		int m_box[26];
 };
 
 

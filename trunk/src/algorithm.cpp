@@ -17,11 +17,31 @@
 //      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 //      MA 02110-1301, USA.
 
+#include <iostream>
+#include "algorithm.hpp"
+#include "table.h"
+
 
 algorithm::algorithm(){
-}
+}//algorithm
 
 
 algorithm::~algorithm(){
-}
+}//~algorithm
 
+
+int algorithm::AlgorithmInitialize( int password_length ){
+	//fill m_box with content from static const keys[]
+	for( int i = 0; i < 26; i++ ){
+		m_box[i] = keys[i];
+		std::cout << m_box[i] << std::endl;
+	}
+	
+	//get the numbers of which keys we use to generate the password
+	/*{
+		 * ToDo: Eine rechnung aufstellen um zu berechnen welche keys benutzt werden sollen
+	 }*/
+	int useever = ( password_length % 26 );
+	
+	return (0x00);
+}//AlgorithmInitialize()

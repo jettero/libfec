@@ -22,13 +22,15 @@
 #define _libfec_hpp_
 
 class libfec{
+		friend class algorithm;
 	public:
 		libfec(char *password);
 		~libfec();
 	
-		void Initialize();
+		void LibfecInitialize();
 	
 	private:
+		int m_box[26];
 		int m_length;
 		char *m_password;
 };
