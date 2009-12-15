@@ -26,7 +26,6 @@ algorithm::algorithm(){
 	//fill m_box with content from static const keys[]
 	for( int i = 0; i < 26; i++ ){
 		m_box[i] = keys[i];
-		std::cout << m_box[i] << std::endl;
 	}
 }//algorithm
 
@@ -36,9 +35,38 @@ algorithm::~algorithm(){
 
 
 int algorithm::AlgorithmInitialize( int password_length ){
-	 //ToDo: Eine rechnung aufstellen um zu berechnen welche keys benutzt werden sollen
-	 
-	int useever = ( password_length % 26 );
+		 
+	int useever = ( ( password_length * 2 ) % ( 26 - ( ( password_length % 26 ) * 2 ) ) );
+	//int useever = password_length;
+	int useKeys[password_length];
+	
+	int index = useever;
+	
+	//Die zu verwendenden Schlüssel berechnen
+	//so viele Schlüssel wie länge des Passworts werden benötigt
+	for( int i = 0; i < password_length; i++ ){
+		
+		//index ist eine zahl zwischen 0 und 25
+		//gibt an welcher schlüssel genommen wird
+		useKeys[i] = index;
+		std::cout << useKeys[i] << std::endl;
+		
+		//prüfen ob index + index kleiner ist als 26
+		if( ( index + index ) < 26 ){
+			index += index;
+		//wenn nein dann:
+		} else {
+			//für alle  von x bis useever
+			for( int x = 0; x < useever; x++ ){
+				//wenn index gleich 26 ist auf 0 setzen
+				if(index == 26){
+					index = 0;
+				} else {
+					index++;
+				}
+			}
+		}
+	}
 	
 	return (0x00);
 }//AlgorithmInitialize()

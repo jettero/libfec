@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
 	
 	algorithm alg;
 	
-	alg.AlgorithmInitialize( 5 );
+	alg.AlgorithmInitialize( 4 );
 	
 	return (0);
 }
