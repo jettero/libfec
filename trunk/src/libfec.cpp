@@ -23,16 +23,15 @@
 #include <iostream>
 #include <string.h>
 
-libfec::libfec( char *password ){
-	m_length = strlen( password );
-	m_password = password;
+libfec::libfec( char *rpassword ){
+	length = strlen( rpassword );
+	password = rpassword;
 }//libfec()
+
+
+void libfec::libfecInitialize(){
+}//LibfecInitialize()
 
 
 libfec::~libfec(){
 }//~libfec()
-
-
-void libfec::LibfecInitialize(){
-}//LibfecInitialize()
-
