@@ -26,13 +26,14 @@ class libfec{
 	public:
 		libfec(char *password);
 		~libfec();
-	
-		void LibfecInitialize();
+		
+		int getLength(){return length;};
+		void libfecInitialize();
 	
 	private:
-		int m_box[26];
-		int m_length;
-		char *m_password;
+		int box[26];
+		int length;
+		char *password;
 };
 
 
