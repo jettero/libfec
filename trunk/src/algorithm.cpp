@@ -34,7 +34,7 @@ algorithm::~algorithm(){
 }//~algorithm
 
 
-int algorithm::AlgorithmInitialize( int password_length ){
+int algorithm::algorithmInitialize( int password_length ){
 		 
 	int useever = ( ( password_length * 2 ) % ( 26 - ( ( password_length % 26 ) * 2 ) ) );
 	//int useever = password_length;
