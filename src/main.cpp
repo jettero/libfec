@@ -24,15 +24,19 @@
 
 int main(int argc, char *argv[]){
 	char password[100];
-	
-	std::cin >> password;
+	if( argc == 1){
+		std::cin >> password;
+	} else {
+		*argv = password;
+	}
 	
 	libfec *fec;
 	fec = new libfec(password);
 	
-	algorithm alg;
+	algorithm *alg;
+	alg = new algorithm();
 	
-	alg.AlgorithmInitialize( fec->getLength() );
+	alg->algorithmInitialize( fec->getLength() );
 	
 	return (0);
 }

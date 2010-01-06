@@ -26,7 +26,7 @@ class algorithm{
 		algorithm();
 		~algorithm();
 		
-		int AlgorithmInitialize( int password_length );
+		int algorithmInitialize( int password_length );
 	
 	private:
 		char *password;
