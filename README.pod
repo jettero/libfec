@@ -1,0 +1,21 @@
+=encoding UTF-8
+
+=head1 LIBFEC
+
+I<[from L<https://code.google.com/p/libfec/>]>
+
+libfec is a free library under the terms of the General Public License v3 libfec
+is a library with you can encrypt and decrypt passwords with a self made
+algorithm.
+
+This library is written in c++ and is under development by Martin Hofmann.
+
+Notice that this library is not for real use. It's only for people who are
+interested in understanding the code or for test-uses 
+
+=head1 my-local-changes
+
+I wanted libfec for L<https://github.com/jgaeddert/liquid-dsp>.  It doesn't
+build on modern architectures though … 
+
+FYI: All I did so far was clone this repo, stare at it, and add this README.
